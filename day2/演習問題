@@ -1,0 +1,31 @@
+演習問題
+
+問題③
+自己紹介ファイルがある箇所まで移動して
+git init
+git remote add origin URL
+
+問題④
+git add ファイル名
+
+問題⑤
+git commit -m "メッセージ"
+
+問題⑦
+git push origin ブランチ名
+
+問題⑧,⑨
+git checkout -b "develop"
+
+問題⑩
+git commit -m "message"
+
+問題11
+git push origin develop
+
+問題12
+git checkout develop
+git pull origin master
+
+問題13
+git merge master

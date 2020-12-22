@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Sample Page</title>
+    <style>
+      h1{
+          color:blue;
+      }
+      
+      
+      .lesson1{
+          background-color: greenyellow;
+          border: solid 1px black;
+          padding: 10px;
+      }
+
+      .lesson1 h2{
+          color:red;
+      }
+      .lesson1 ol{
+          border:solid 1px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>プログラミングとは</h1>
+    <h1>Web開発のながれ</h1>
+    <div class="lesson1">
+      <h2>HTML概要</h2>
+      <ol>
+        <li>HTMLとは</li>
+        <li>HTMLの文法</li>
+      </ol>
+      <button id="btn">ボタン</button>
+      <script>
+          var btn = document.getElementById("btn");
+
+          btn.addEventListener('click',function(){
+              alert("Hello");
+          });
+
+      </script>
+
+    </div>
+  </body>
+</html>
