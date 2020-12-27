@@ -1,5 +1,9 @@
 演習問題
 
+問題１
+git config --global user.name  xxxx
+git config --global user.email xxxxxx@gmail.com
+
 問題③
 自己紹介ファイルがある箇所まで移動して
 git init
