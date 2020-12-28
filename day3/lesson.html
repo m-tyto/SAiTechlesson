@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="demo">0</div>
+    <script>
+        const demo = document.getElementById("demo");
+        for(let i = 1;i<=100;i++){
+            if(i % 3 == 0 && i % 5 == 0){
+                console.log("FizzBuzz");
+                demo.textContent="FizzBuzz";
+            }
+            else if(i % 3 == 0 ){
+                console.log("Fizz");
+                demo.textContent="Fizz";
+            }
+            else if(i % 5 == 0){
+                console.log("Buzz");
+                demo.textContent="Buzz";
+            }
+            else{
+                console.log(i);
+                demo.textContent=i;
+
+            }
+        }
+    </script>
+</body>
+</html>
