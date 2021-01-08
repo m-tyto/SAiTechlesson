@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <div id="demo">0</div>
+    <p>0</p>
     <script>
-        const demo = document.getElementById("demo");
         for(let i = 1;i<=100;i++){
             if(i % 3 == 0 && i % 5 == 0){
                 console.log("FizzBuzz");
-                demo.textContent="FizzBuzz";
+                let num = "FizzBuzz";
+                document.write('<p>'+num+'</p>');    
             }
             else if(i % 3 == 0 ){
                 console.log("Fizz");
-                demo.textContent="Fizz";
+                let num = "Fizz";
+                document.write('<p>'+num+'</p>');
             }
             else if(i % 5 == 0){
                 console.log("Buzz");
-                demo.textContent="Buzz";
+                let num = "Buzz";
+                document.write('<p>'+num+'</p>');
             }
             else{
                 console.log(i);
-                demo.textContent=i;
-
+                document.write('<p>'+i+'</p>');
             }
+            
         }
     </script>
 </body>
